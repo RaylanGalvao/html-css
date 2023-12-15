@@ -1,0 +1,85 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'robo';
+    src: url('fontes/idroid.otf')format('opentype');
+}
+body{
+    background-color: #84E1AD;
+    text-align: justify;
+}
+header{
+    color: white;
+    background-image: linear-gradient(to top,#195A36,#2A9558,#3CD782);
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+}
+h1{
+    margin: auto;
+    text-align: center;
+    
+}
+header > .unico{
+    width: 375px;
+    margin: auto;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+nav{
+    color: white;
+    display: inline;
+    padding: 10px;
+}
+main{
+    background-color: white;
+    margin: 0px 150px;
+    border: 100px rgba(0, 0, 0, 0.34);
+}
+article > .duplo{
+    font-family: robo;
+    color: #195A36;
+    text-align: left;
+    width: -300px;
+}
+h2{
+    background-color: #d9f8e7;
+    color: #195A36;
+    font-family: robo;
+}
+article > .para{
+    text-indent: 20px;
+}
+footer{
+    background-color: #195A36;
+    color: white;
+    margin: auto;
+    text-align: center;
+} picture{
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+iframe{
+   margin: auto;
+   border-width: 15;
+   border-style: solid;
+   border-color: #195A36;
+}
+aside{
+    background-color: #bae0ca;
+    border-radius: 10px; 
+    margin: 20px;
+}
+aside > h3{
+    background-color: #2A9558;
+    border-radius: 10px 10px 0px 0px;
+}
+aside > p{
+    text-indent: 20px;
+}
+span{
+    font-weight: bold;
+    color: #2a5f41;
+}
+check{
+    type: '&#10003';
+}
