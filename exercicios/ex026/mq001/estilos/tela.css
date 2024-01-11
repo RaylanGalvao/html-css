@@ -18,4 +18,16 @@ header > h1{
 }
 menu ul{
     list-style-type: none;
+    background-color: grey;
+}
+menu li{
+    background-color: rgb(75, 75, 75);
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
 }
